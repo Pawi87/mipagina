@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) and (max-width: 1940px){ 
+  .fa-bars{
+    visibility: hidden;
+  }
+
+@media (max-width: 768px) { 
+  .fa-bars{
+    visibility: visible;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 20px 20px;
+    float: right;
+  }
+
+  .fa-bars:hover{
+    color: #616161;
+  }
+
+  ul{
+    visibility: hidden;
+      color:white; 
+  }
+
+  .col-4,
+  .col-8{
+    width: 100%;
+  }
+
+  .col-3{
+    width: 80%;
+  }
+
+  button{
+    text-decoration: none;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #616161;
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    outline: none;
+  }
+
+  header{
+    z-index: 1000;
+  }
+
+}
